@@ -1,0 +1,396 @@
+ @import url("https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap");
+* {
+  font-family: "PT Sans Caption", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+} 
+html {
+    overflow-x: hidden;
+  }
+  
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+/* =================================================================== */
+.mainuppernavbar{
+    background-color: aqua;
+    margin: 0px;
+}
+.uppernavbar {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.uppernavbar div{
+    font-size: 25px;
+}
+
+@media screen and (max-width:769px) {
+    .uppernavbar div{
+        font-size: 15px;
+    }
+}
+/* ===============================ends uppernavbar============================= */
+.midnavbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 30px;
+}
+.mid1 input{
+   font-size: 20px;
+   border:none ;
+   outline: none;
+   margin-left: 20px;
+}
+.mid1 i{
+    margin-right: 40px;
+}
+.search{
+    border: 2px solid black;
+    height: 35px;
+    border-radius: 30px;
+}
+
+.mid2 img{
+    width: 250px;
+}
+.mid3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.mid3 i{
+    margin: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+@media screen and (max-width:769px) {
+    .search{
+       display: none;
+    }
+    
+}
+/* ==================ends midnavbar================================ */
+/* ========================start mainnvbar========================= */
+.mainnavbar{
+    padding-top: 30px;
+}
+.mainnavbar ul {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly   ;
+list-style:none;
+}
+.mainnavbar a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+
+}
+
+@media screen and (max-width:770px) {
+    .mainnavbar ul {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly   ;
+list-style:none;
+}
+}
+
+
+
+
+
+
+.line {
+    background-color: grey;
+    height: 1px;
+  }
+  
+  .slidebar {
+    background-color: coral;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 140px;
+    left: -500px;
+    z-index: 10000000;
+    display: none;
+  }
+  .slidebar ul {
+    list-style: none;
+  }
+  .slidebar ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    margin: 20px;
+    padding: 20px;
+  }
+  @media screen and (max-width: 770px) {
+    .slidebar {
+      display: block;
+    }
+  }
+  
+  label {
+    display: none;
+    font-size: 25px;
+  }
+  @media screen and (max-width: 770px) {
+    label {
+      display: block;
+      margin-left: -110px;
+    }
+  }
+  @media screen and (max-width: 426px) {
+    label {
+      display: block;
+      margin-left: -80px;
+    }
+  }
+  @media screen and (max-width: 376px) {
+    label {
+      display: block;
+      margin-left: -80px;
+    }
+  }
+  @media screen and (max-width: 321px) {
+    label {
+      display: block;
+      margin-left: -70px;
+    }
+  }
+  
+  @media screen and (max-width: 770px) {
+    #abhi:checked ~ .slidebar {
+      left: 0px;
+      transition: 1.2s;
+      cursor: pointer;
+    }
+  }
+  
+
+
+
+/* ======================================== */
+
+/* ========================ends mainnavbar ========================= */
+/* ==============================start hero section================ */
+.mainhero{
+
+}
+.minihero1{
+    background-image: url("https://skins.minimog.co/cdn/shop/files/1_8313f3b7-a2a4-4761-a816-e33a4e45f8c7.jpg?v=1623830923&width=2000");
+    height: 65vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nwearr{
+    padding-top: 120px;
+    font-size: 25px;
+    padding-left: 150px;
+}
+.choow{
+   
+    font-size: 55px;
+    padding-left: 150px;
+}
+.cheou{
+    padding-top: 50px;
+    font-size: 25px;
+    padding-left: 150px;
+}
+
+/* ====================================ends hero section ============== */
+.beheading{
+    font-size: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.gallery div img{
+  height: 300px;
+  width: 300px;
+ 
+}
+.miniga1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.miniga2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.heglass{
+    font-size: 25px;
+}
+
+.colormian{
+    display: flex;
+    flex-wrap: wrap;
+}
+.minicolor1{
+    background-color: rgb(70, 70, 168);
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.minicolor2{
+    background-color: rgb(220, 220, 118);
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.minicolor3{
+    background-color: rgba(168, 96, 70, 0.725);
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+
+/* ============================ends gallery================================= */
+/*    ===================================    start view all product========= */
+.viewproall{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.choiceproduct{
+    background-color: rgba(166, 239, 240, 0.868);
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+.shopbycate{
+    font-size: 40px;
+}
+.allourcandel{
+    font-size: 20px;
+}
+
+.minichoice2{
+    background-color: white;
+    height: 300px;
+    width: 250px;
+}
+.minichoice2 img{
+    width: 200px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.minichoice3{
+    background-color: white;
+    height: 300px;
+    width: 250px;
+    
+}
+.minichoice3 img{
+    width: 200px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.minichoice4{
+    background-color: white;
+    height: 300px;
+    width: 250px;
+}
+.minichoice4 img{
+    width: 200px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+/* =====================================ends view all products ==================  */
+/* =============================start video ============================== */
+.video{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.minivideo2 img{
+    width: 700px;
+    height: 600px;
+}
+
+.enjoy{
+    font-size: 50px;
+    padding-top: 150px;
+    padding-left: 50px;
+}
+.madeusing{
+    padding-top: 20px;
+    font-size: 25px;
+    padding-left: 50px;
+}
+.discover{
+    padding-top: 20px;
+    font-size: 25px;
+    padding-left: 80px
+}
+
+
+/* ================================start footer ==================== */
+.footer{
+    background-color: bisque;
+    overflow-x: hidden;
+
+}
+.bofooter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+#bf1{
+    margin-bottom:20px;
+}
+.mfooter{
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.mf1{
+    font-size: 30px;
+    /* color: rgb(84, 84, 84); */
+}
+.mf2{
+    font-size: 40px;
+
+}
+
+.ll{
+    border: 1px solid gray;
+    margin-top: 20px;
+}
+
+.anchor a{
+    text-decoration: none;
+}
